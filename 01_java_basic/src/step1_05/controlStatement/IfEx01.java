@@ -3,9 +3,11 @@ package step1_05.controlStatement;
 public class IfEx01 {
 
 	public static void main(String[] args) {
+		
 		if (true) {
-		System.out.println("실행 0"); // if문 안의 명령어는 tab으로 들여쓰기 한다. 무언가에속해있을때는 tab. 띄어쓰기(X)
-	}
+			System.out.println("실행 0"); // if문 안의 명령어는 tab으로 들여쓰기 한다. 무언가에속해있을때는 tab. 띄어쓰기(X)
+		}
+		
 		if (false) {
 			System.out.println("실행 0"); // if문 안의 명령어는 tab으로 들여쓰기 한다. 무언가에속해있을때는 tab. 띄어쓰기(X)
 		}
@@ -23,6 +25,8 @@ public class IfEx01 {
 			System.out.println("홀수");
 		}
 
+	
+		
 }
 }
 

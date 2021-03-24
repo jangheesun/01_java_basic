@@ -18,9 +18,12 @@ public class IfEx02_문제 {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
+		
 		int com = 8;
+		
 		System.out.println("업다운 게임! 정답을 맞춰보세요.");
 		int me = scan.nextInt();
+		
 		if( me>com ) {
 			System.out.println("UP!");
 		}
