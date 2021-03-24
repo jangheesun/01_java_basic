@@ -3,7 +3,7 @@ package step1_06.loop;
 import java.util.Scanner;
 
 /*
- * # ATM[2단계]
+ * # ATM[2단계]    
  * 
  * identfier변수가 -1 이면 로그아웃 상태이고
  * 				    1 이면 dbAcc1유저가 로그인한 상태이며
