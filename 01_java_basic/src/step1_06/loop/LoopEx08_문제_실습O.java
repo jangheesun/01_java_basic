@@ -20,7 +20,7 @@ import java.util.Scanner;
  * 
  */
 
-public class LoopEx08_문제_실습 {
+public class LoopEx08_문제_실습O {
 
 	public static void main(String[] args) {
 		
