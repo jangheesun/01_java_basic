@@ -15,8 +15,6 @@ public class IfEx09_문제 {
 
 	public static void main(String[] args) {
 		
-		
-	
+			
 	}
-
 }

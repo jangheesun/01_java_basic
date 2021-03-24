@@ -32,10 +32,7 @@ public class IfEx09_정답예시 {
 			int answer = scan.nextInt();
 			if (answer == 1) 	System.out.println("놀이기구 이용가능합니다.");
 			if (answer == 0) 	System.out.println("놀이기구를 이용할 수 없습니다.");
-		}
-		
+		}	
 		scan.close();
-
 	}
-
 }
