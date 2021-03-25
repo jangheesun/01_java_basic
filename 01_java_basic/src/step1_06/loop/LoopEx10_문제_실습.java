@@ -67,16 +67,8 @@ public class LoopEx10_문제_실습 {
 			else if (sel == 2) {
 				System.out.println("로그아웃 성공. 로그인 후 이용가능.");
 			}
-			else if (sel == 3) {
-					if( identifier == 1 || identifier == 2) System.out.println("로그인 후 이용가능합니다.");
-					else
-							System.out.println("계좌번호 입력");
-							int meIn = scan.nextInt();
-							System.out.println("금액을 입력하세요");
-							int meMoney = scan.nextInt();
-							{if ( meIn == dbAcc1 ) 
-							
-			}
+			else if (sel == 3) {}
+					
 			else if (sel == 4) {}
 					
 			else if (sel == 5) {}
