@@ -15,7 +15,7 @@ import java.util.Random;
  * 
  */
 
-public class LoopEx15_문제_실습 {
+public class LoopEx15_문제_실습O {
 
 	public static void main(String[] args) {
 		
