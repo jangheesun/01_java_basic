@@ -2,7 +2,7 @@ package step1_06.loop;
 
 import java.util.Scanner;
 
-/*21-03-25 15:08 ~15:23
+/*21-03-25 15:08 ~15:41
  * # 베스킨라빈스31
  * ssdfsdfsdf
  * 1. p1과 p2가 번갈아가면서 1~3을 입력한다.
@@ -29,23 +29,27 @@ public class LoopEx11_문제 {
 		int turn = 0;
 		int br = 0;
 		while ( br < 31 ) {
+			if (turn % 2 == 0 )
 			System.out.println("p1님 입력하세요.");	
 			int x = scan.nextInt();
 			p1 += x ;
 			br += x ;
+			turn++ ;
 			System.out.println("누적 수치" + br );
-				if ( br < 31 ) {
-						System.out.println("p2님 입력하세요.");	
-						int y = scan.nextInt();
-						p2 += y ;
-						br += y ;
-						System.out.println("누적 수치" + br );
-						}
-						System.out.println("종료");
-				
-					
-		
-					}
+			if ( br < 31 ) {
+				if (turn % 2 == 1)
+				System.out.println("p2님 입력하세요.");	
+				int y = scan.nextInt();
+				p2 += y ;
+				br += y ;
+				turn++ ;
+				System.out.println("누적 수치" + br );
+			}
+										
+		}
+		if (turn % 2 == 0 ) System.out.println("p1승리");
+		if (turn % 2 == 1 ) System.out.println("p2승리");
+		System.out.println("종료");
 		
 		scan.close();
 		
