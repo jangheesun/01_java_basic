@@ -74,6 +74,7 @@ public class LoopEx10_문제_실습 {
 							int meIn = scan.nextInt();
 							System.out.println("금액을 입력하세요");
 							int meMoney = scan.nextInt();
+							{if ( meIn == dbAcc1 ) 
 							
 			}
 			else if (sel == 4) {}
