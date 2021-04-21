@@ -1,6 +1,6 @@
 package step1_03.operator;
 
-/*
+/*o
  * 
  *  논리 연산자
  * 

@@ -1,6 +1,6 @@
 package step1_03.operator;
 
-public class OpEX07 {
+public class OpEX07 {//o
 
 	public static void main(String[] args) {
 		
@@ -30,7 +30,8 @@ public class OpEX07 {
 		System.out.println(y);
 		System.out.println();
 		
-		//tempData1 = tempData1 - 3;	//tempData1 - 3; 이렇게쓰면 이줄에서만 3이 빠진것으로 값이 재정의되지 않았다. = 연산자는 같다가 아니고 대입이다. 대입할때는 오른쪼고 값을 왼쪽에 넣는다.
+		//tempData1 = tempData1 - 3;	//tempData1 - 3; 이렇게쓰면 이줄에서만 3이 빠진것으로 값이 재정의되지 않았다.
+		//= 연산자는 같다가 아니고 대입이다. 대입할때는 오른쪽 값을 왼쪽에 넣는다.
 		
 		// TODO Auto-generated method stub
 		

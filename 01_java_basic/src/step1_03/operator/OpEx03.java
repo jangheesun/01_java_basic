@@ -1,6 +1,6 @@
 package step1_03.operator;
 
-/*
+/*o
  * 
  *  비교 연산자
  * 

@@ -1,6 +1,6 @@
 package step1_02.variable;
 
-/*
+/*o
  * 
  * 변수 명명 규칙
  * 
@@ -21,14 +21,14 @@ package step1_02.variable;
  * 
  * 	- 변수명은 영어로 작성한다. (한글X)
  *  - 변수명은 소문자로 시작한다. ( 클래스이름을 대문자로 시작한다. )
- *  - 불리언타입 변수명 앞에는 is를 붙인다.
+ *  - @불리언타입 변수명 앞에는 is를 붙인다.
  *    Ex) isRunning , isChecked
  *  - 두 단어가 이어지는 경우 이어지는 단어의 첫글자를 대문자로 작성한다.(Camel Case)
  * 	  Ex) productName , productCode
  *  - 두 단어가 이어지는 경우 이어지는 단어를 _로 이어준다. (snake_case)
  *    Ex) product_name , product_code
  * 
- *  - 상수명은 전부 대문자로 작성한다.
+ *  - 상수명(변하지않는 변수)은 전부 대문자로 작성한다.
  *  - 상수명에서 두단어가 이어지는 경우_로 이어준다.(snake_case)
  * 
  * */

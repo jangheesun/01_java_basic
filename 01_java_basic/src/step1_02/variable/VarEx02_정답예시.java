@@ -1,7 +1,7 @@
 package step1_02.variable;
 
 public class VarEx02_정답예시 {
-
+//o
 	public static void main(String[] args) {
 		
 		//예) 현금이 1000원있다. 200원짜리 과자 구입 후, 잔돈 출력 

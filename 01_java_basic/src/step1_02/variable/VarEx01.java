@@ -1,6 +1,6 @@
 package step1_02.variable;
 
-/*
+/*o
  * 
  *  # 변수 ( variable )
  *  

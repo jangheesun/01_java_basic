@@ -1,6 +1,6 @@
 package step1_02.variable;
 
-// 산술 연산자 하고 와서 진행
+// 산술 연산자 하고 와서 진행o
 public class VarEx02_문제 {
 
 	public static void main(String[] args) {
